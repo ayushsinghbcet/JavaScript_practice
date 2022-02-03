@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>Compare Numbers</title>
+		<script>
+			function show_Higest_Value(){
+				var num1 = document.getElementById('fnum').value;
+				var num2 = document.getElementById('snum').value;
+				num1 = parseInt(num1);
+				num2 = parseInt(num2);
+				if(num1 > num2){
+					alert('First number is greater');
+				}
+				else if(num2 > num1){
+					alert('Seond number is greater');
+				}
+				else{
+					alert('Both numbers are equal');
+				}
+			}
+		</script>
+	</head>
+	<body>
+		First Number :  <input type = 'text' id = 'fnum'>
+		<br><br>
+		Second Number : <input type = 'text' id = 'snum'>
+		<br><br>
+		<button onclick = 'return show_Higest_Value()'>Compare</button>
+	</body>
