@@ -15,3 +15,4 @@
   console.log(obj1.getName())
   obj2.getName()
   console.log(obj2.__proto__.getName())
+  console.log(obj1.__proto__.getName())
